@@ -1,0 +1,255 @@
+.landingpage{
+	color: white;
+	background:url(images/landingpage2.jpg);
+	background-size: 100% 100%;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	padding: 150px;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.55);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+#item-div{
+	margin-top:10%;
+	height: 460px;
+	width: 600px;
+	position: absolute;
+	-webkit-transition:left 0.5s,-webkit-transform 0.5s;
+}
+#registration-div,#login-div{
+	top: 150px;
+	left:0px;
+	color: #30576f;
+	background-color:whitesmoke;
+	width: 500px;
+	position: absolute;
+	opacity: 0;
+	border: 1px solid white;
+	-webkit-transition:left 0.5s,opacity 1s,-webkit-box-shadow 2s,border-radius 1.5s,top 0.5s;
+}
+#registration-div-item,#login-div-item{
+	position: relative;
+}
+#registration-div input,#login-div input{
+	margin-bottom: 10px;
+}
+
+#registration_header,#login_header{
+	color: #30576f;
+	padding-bottom: 10px;
+	border-bottom: 1.3px solid #eb4e01;
+	margin-bottom: 0px;
+	padding-left: 20px;
+}
+.registration-cancel{
+	font-weight: bolder;
+	font-size:120%;
+	width: 10px;
+	height: 10px;
+	position: relative;
+	left: 98%;
+}
+.registration-error-close{
+	font-weight: bolder;
+	font-size:150%;
+	width: 10px;
+	height: 10px;
+	position: relative;
+	left: 95%;
+}
+#register-error{
+	color: #d80b0b;
+	background-color: whitesmoke;
+	border-radius: 10px;
+	z-index:10;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0px;
+	left:0;
+	margin: 0;
+}
+
+@keyframes shake {
+	0% { -webkit-transform: translate(3px, -15px) rotate(0deg); }
+	10% { -webkit-transform: translate(-6px, -30px) rotate(-6deg); }
+	20% { -webkit-transform: translate(0px, -45px) rotate(6deg); }
+	30% { -webkit-transform: translate(6px, -30px) rotate(0deg); }
+	40% { -webkit-transform: translate(-3px, -15px) rotate(6deg); }
+	50% { -webkit-transform: translate(6px, 0px) rotate(-6deg); }
+	60% { -webkit-transform: translate(3px, 15px) rotate(0deg); }
+	70% { -webkit-transform: translate(3px, 30px) rotate(-6deg); }
+	80% { -webkit-transform: translate(-3px, 45px) rotate(6deg); }
+	90% { -webkit-transform: translate(6px, 21px) rotate(0deg); }
+	100% { -webkit-transform: translate(-6px, 0px) rotate(-6deg); }
+	
+}
+
+
+.C{
+	display: -moz-inline-stack;
+    display: inline-block;
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.fh1{
+	font-size: 115px;
+	 font-family: 'Caesar Dressing';
+	padding-bottom: 0px;
+}
+.fp{
+	padding-top: 0%;
+	margin-top: 0%;
+}
+
+#navbar{
+	background-color:#eb4e01;
+	 margin:0px;
+}
+
+#navbaritems{
+	color:white;
+}
+/* going to the about page now*/
+
+#aboutcontainerfluid{
+padding-left: 0px;
+padding-right: 0px;
+height: 500px;
+position: absolute;
+
+}
+
+
+#aboutcontainerfluidoverlay{
+top:0;
+left: 0;
+background-color: rgba(255, 14, 0, 0.40);
+padding-left: 0px;
+padding-right: 0px;
+height: 500px;
+width: 100%;
+position: absolute;
+z-index: 10;
+}
+
+#aboutcontainerfluidoverlay:hover{
+	background-color: rgba(255, 14, 0, 0.50);
+	font-style: 'Caesar Dressing';
+}
+.abouth1:hover{
+	font-size: 95px;
+	font-style: 'Caesar Dressing';
+}
+
+.abouth1{
+	font-size: 85px;
+	padding-top: 200px;
+	font-weight: bolder;
+	color: white;
+}
+
+
+#aboutcontainerfluid1{
+background-color:#30576f;
+padding-left: 0px;
+padding-right: 0px;
+width: 100%;
+}
+
+
+#aboutcontainerfluid3{
+padding-left: 0px;
+padding-right: 0px;
+height: 500px;
+width: 100%;
+}
+
+#aboutcontainerfluid2{
+padding-left: 0px;
+padding-right: 0px;
+width: 100%;
+margin: 0px;
+}
+
+#history{
+	background-color: white;
+	z-index: 2;
+	border-radius: 5px;
+	border:1px solid #eb4e01;
+	color: black;
+}
+
+#aboutfeatures{
+	background-color: white;
+	font-size: 150%;
+}
+
+#aboutfeaturesp{
+	font-family: Fugas One;
+}
+
+#aa{
+	-webkit-transition:-webkit-transform 2s;
+}
+
+#aa>a:hover{
+	-webkit-transform:scale(1.5);
+}
+
+
+#aboutfeaturesh1{
+font-size: 120%;
+font-family:Berkshire Swash ;
+}
+
+#abouthistoryh1{
+	font-size: 200%;
+	font-family:Aclonica ;
+}
+
+#aboutdirectors{
+	background-color:#f1f2f7 ;
+}
+
+#about_footer{
+	background-color: white;
+	padding-top: 20px;
+}
+
+#about_footer ul{
+	list-style-type: none;
+	font-size: 120%;
+}
+
+#about_footer h4{
+
+	text-indent: 30px;
+	font-size: 150%;
+}
+#social_media_div{
+	-webkit-transition:-webkit-transform 1s;	
+}
+
+#social_media{
+	text-decoration: none;
+	font-size: 100%;
+	border:1px solid #337ab7;
+	padding: 10px;
+	border-radius: 50%;
+	
+}
+#social_media:hover {
+    opacity: 0.7;
+    -webkit-transform:rotate(60deg);
+}
+

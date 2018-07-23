@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>clatem</title>
+	<link href='https://fonts.googleapis.com/css?family=Caesar Dressing' rel='stylesheet'>
+	 <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/cropper.min.js"></script>
+    <link href="bootstrap/css/cropper.min.css" rel="stylesheet">
+    <script src="bootstrap/js/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+	<div  class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+	<nav style="border-bottom: 2px solid #30576f; background-color:#eb4e01;" class="navbar navbar-default navbar-fixed-top" >
+		<div class="container" >
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-control="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="clanet.html" class="navbar-brand"  style="font-family: 'Caesar Dressing';color: white;">CLATEM</a> 
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+			<li class="active"><a href="clanet.html">Home</a></li>
+			<li><a href="About.html" id="navbaritems" style="color: white;">About</a></li>
+			<li><a href="contactus.html" style="color: white;">Contact Us</a></li>
+			</ul>
+			</div>
+		</div>
+	</nav>
+	
+<div id="landingpage" class="landingpage text-center">
+	<div class="overlay">
+			<div id="item-div" class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-12">
+					<h1 class="fh1" style="color:#eb4e01;" ><b id="clatem"><span id="C" class="c">C</span><span id="L" class="c">L</span><span id="A" class="c">A</span><span style="color: #30576f;"><span id="T" class="c">T</span><span id="E" class="c">E</span><span id="M" class="c">M</span></span></b></h1>
+					<p class="fp"><em><small>Get easy access to functioning ATM stand around your current location.</small></em></p><br>
+					<a href="#"><button id="register-botton" class="btn btn-info" type="submit">Register Now</button></a>
+					<p>Already have an account <button class="btn btn-secondary btn-sm login-botton" id="login-botton">login</button></p></div>
+
+	<div id="registration-div" class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-12">
+		<div id="registration-div-items" class="text-left">
+						<div id="register-error" class="register-error text-center">
+						<div id="registration-error-close" class="registration-error-close text-center">&times</div>
+							<div id="registration-symbol" class="fa fa-warning" style="font-size: 5em; padding: 20px; margin-top: 20px;color: #d80b0b;"></div>		
+						</div>
+			<a href="#"><div id="registration-cancel" class="registration-cancel text-right">&times</div></a>
+			<h2 id="registration_header" class="text-left">Register</h2><br>
+		<form class="form-vertical" method="post" action="#">
+			<div class="form-group">
+				<label for="firstname" class="col-md-3 control-label"> First Name:</label>
+				<div class="col-md-8">
+				<input type="text" id="firstname" class="form-control" value="">
+			</div>
+			</div>
+			<div class="form-group">
+				<label for="lastname"  class="col-md-3 control-label"> Last Name:</label>
+				<div class="col-md-8">
+				<input type="text" id="lastname" class="form-control" value="">
+			</div>
+		</div>
+			<div class="form-group">
+				<label for="username"  class="col-md-3 control-label"> Username:</label>
+				<div class="col-md-8">
+				<input type="text" id="username" class="form-control" value="">
+			</div>
+		</div>
+			<div class="form-group">
+				<label for="email" class="col-md-3 control-label"> Email:</label>
+				<div class="col-md-8">
+				<input type="email" id="email" class="form-control" value="">
+			</div>
+		</div>
+			<div class="form-group">
+				<label for="password" class="col-md-3 control-label"> Password:</label>
+				<div class="col-md-8">
+				<input type="password" id="password" class="form-control" value="">
+			</div>
+		</div>
+			<div class="form-group">
+				<label for="confirmpassword" class="col-md-3 control-label"> Confirm Password: </label>
+				<div class="col-md-8">
+				<input type="password" id="confirmpassword" class="form-control" value="">
+		</div>
+		<div class="col-md-3 col-md-offset-8">
+			<button id="registration-submit" type="submit" class="btn btn-info btn-block">Register</button>
+		</div>
+		</form>
+	</div>
+	</div>
+	
+</div>
+	<div id="login-div" class="col-md-6 col-md-offset-3">
+		<div id="login-div-item" class="text-left">
+				<a href="#"><div id="login-cancel" class="registration-cancel text-right">&times</div></a>
+			<h2 id="login_header" class="text-left">Login</h2><br>
+		<form class="form-vertical" method="post" action="#">
+			<div class="form-group">
+				<label for="username"  class="col-md-3 control-label"> Username: </label>
+				<div class="col-md-8">
+				<input type="text" id="username" class="form-control">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="password" class="col-md-3 control-label"> Password: </label>
+			<div class="col-md-8">
+			<input type="password" id="password" class="form-control">
+		</div>
+	</div>
+		<div class="col-md-3 col-md-offset-8">
+			<button id="login-submit" type="submit" class="btn btn-info btn-block">Login</button>
+		</div>
+		</form>
+		</div>
+	</div>
+	</div>
+</div>
+<script src="jquery.js"></script>
+<script src="clatem.js"></script>
+</body>
